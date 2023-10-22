@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000ee;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+    line-height:2; /* Sets the line height to 1.5 times the font size */
+
+                     
+}
+
+header {
+    background-image: url('./Images/1.jpg');
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+
+}
+
+header h1 {
+    font-size: 36px;
+}   
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0078e7;
+}
+
+footer {
+    background-image: url('./Images/2.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add more styles as needed */
